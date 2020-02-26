@@ -1,6 +1,5 @@
 import pygame
 from pygame.locals import *
-from time import sleep
 
 XO = "X"
 available = None
@@ -169,7 +168,7 @@ def highlight(board, xIn, yIn):
     pygame.draw.line(board, (255, 0, 0), (x, y), (x, y + 150), 3)
     pygame.draw.line(board, (255, 0, 0), (x + 50, y), (x + 50, y + 150), 2)
     pygame.draw.line(board, (255, 0, 0), (x + 100, y), (x + 100, y + 150), 2)
-    pygame.draw.line(board, (255, 0, 0), (x + 150, y), (x + 150, y + 150), 2)
+    pygame.draw.line(board, (255, 0, 0), (x + 150, y), (x + 150, y + 150), 3)
     pygame.draw.line(board, (255, 0, 0), (x, y + 50), (x + 150, y + 50), 2)
     pygame.draw.line(board, (255, 0, 0), (x, y + 100), (x + 150, y + 100), 2)
     pygame.draw.line(board, (255, 0, 0), (x, y + 150), (x + 150, y + 150), 3)
@@ -246,7 +245,7 @@ def gameWon(board):
         for bigCol in range(1, 4):
             for smallRow in range(1, 4):
                 if ((grid[bigRow - 1][bigCol - 1][smallRow - 1][0] == grid[bigRow - 1][bigCol - 1][smallRow - 1][1] ==
-                     grid[bigRow - 1][bigCol - 1][smallRow - 1][2]) and \
+                     grid[bigRow - 1][bigCol - 1][smallRow - 1][2]) and
                         (grid[bigRow - 1][bigCol - 1][smallRow - 1][0] is not None)):
                     winner = grid[bigRow - 1][bigCol - 1][smallRow - 1][0]
                     drawMove(board, (bigRow, smallRow), (bigCol, 1), winner, True)
@@ -292,7 +291,7 @@ board = initBoard(ttt)
 
 running = 1
 
-while (running == 1):
+while running == 1:
     for event in pygame.event.get():
         if event.type is QUIT:
             running = 0
