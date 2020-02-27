@@ -1,29 +1,33 @@
-from os.path import exists
+import os
 
 import pygame
 from pygame.locals import *
 
+# Kollar of annat typsnitt finns i mapp
 
-# Kollar of bättre typsnitt finns i mapp
-withFont = True if exists("Raleway-Regular.ttf") else False
-fontType = "Raleway-Regular.ttf" if withFont==True else None
+withFont = False
+for file in os.listdir("."):
+    if file.endswith(".ttf"):
+        withFont = file
+        break
+
+fontType = withFont if type(withFont) == str else None
 ySize = 520 if withFont else 490
-
 
 XO = "X"
 available = None
 
-grid = [[[[None, None, None],   [None, None, None],    [None, None, None]],
-         [[None, None, None],   [None, None, None],    [None, None, None]],
-         [[None, None, None],   [None, None, None],    [None, None, None]]],
+grid = [[[[None, None, None], [None, None, None], [None, None, None]],
+         [[None, None, None], [None, None, None], [None, None, None]],
+         [[None, None, None], [None, None, None], [None, None, None]]],
 
-        [[[None, None, None],   [None, None, None],    [None, None, None]],
-         [[None, None, None],   [None, None, None],    [None, None, None]],
-         [[None, None, None],   [None, None, None],    [None, None, None]]],
+        [[[None, None, None], [None, None, None], [None, None, None]],
+         [[None, None, None], [None, None, None], [None, None, None]],
+         [[None, None, None], [None, None, None], [None, None, None]]],
 
-        [[[None, None, None],   [None, None, None],    [None, None, None]],
-         [[None, None, None],   [None, None, None],    [None, None, None]],
-         [[None, None, None],   [None, None, None],    [None, None, None]]]]
+        [[[None, None, None], [None, None, None], [None, None, None]],
+         [[None, None, None], [None, None, None], [None, None, None]],
+         [[None, None, None], [None, None, None], [None, None, None]]]]
 
 winner = None
 
