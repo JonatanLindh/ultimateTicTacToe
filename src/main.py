@@ -238,7 +238,24 @@ def clickBoard(board):
     drawMove(board, row, col, XO)
 
     available = (smallCol, smallRow)
-    highlight(board, available[0], available[1])
+
+    avGrid = grid[available[1]-1][available[0]-1]
+
+    noneCount = 0
+    for x, y, z in avGrid:
+        print(x, y, z)
+        if x == None:
+            noneCount += 1
+        if y == None:
+            noneCount += 1
+        if z == None:
+            noneCount += 1
+
+    if noneCount != 0:
+        highlight(board, available[0], available[1])
+    else:
+        available = None
+        resetGrid(board)
 
     if (XO == "X"):
         XO = "O"
