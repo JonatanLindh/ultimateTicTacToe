@@ -1,5 +1,14 @@
+from os.path import exists
+
 import pygame
 from pygame.locals import *
+
+
+# Kollar of bättre typsnitt finns i mapp
+withFont = True if exists("Raleway-Regular.ttf") else False
+fontType = "Raleway-Regular.ttf" if withFont==True else None
+ySize = 520 if withFont else 490
+
 
 XO = "X"
 available = None
@@ -56,23 +65,18 @@ def drawStatus(board):
 
     if (winner is None):
         message = "Spelare: " + XO
-        font = pygame.font.Font(None, 24)
+
+        font = pygame.font.Font(fontType, 50)
         text = font.render(message, 1, (10, 10, 10))
 
-        board.fill((250, 250, 250), (0, 450, 450, 25))
-        board.blit(text, (10, 450))
-        color = (250, 250, 250)
-        font = pygame.font.Font("Raleway-Regular.ttf", 50)
-        text = font.render(message, 1, (10, 10, 10))
-
-        board.fill(color, (0, 450, 450, 100))
+        board.fill((250, 250, 250), (0, 450, 450, 100))
         board.blit(text, (10, 450))
         return False
     else:
         color = (50, 205, 50)
         resetGrid(board)
         message = "Vinnare: " + winner
-        font = pygame.font.Font("Raleway-Regular.ttf", 50)
+        font = pygame.font.Font(fontType, 50)
         text = font.render(message, 1, (10, 10, 10))
 
         board.fill(color, (0, 450, 450, 100))
@@ -185,7 +189,7 @@ def drawMove(board, boardRow, boardCol, Piece, onWin=None):
     centerY = (((bigRow - 1) * 3 + smallRow - 1) * 50) + 25
     if onWin == None:
         if (Piece == 'O'):
-            pygame.draw.circle(board, (0, 0, 0), (centerX, centerY), 17, 2)
+            pygame.draw.circle(board, (70, 70, 170), (centerX, centerY), 17, 2)
         else:
             pygame.draw.line(board, (0, 0, 0), (centerX - 11, centerY - 11),
                              (centerX + 11, centerY + 11), 2)
@@ -284,7 +288,7 @@ def gameWon(board):
 
 # --------------------------------------------------------------------
 pygame.init()
-ttt = pygame.display.set_mode((450, 530))
+ttt = pygame.display.set_mode((450, ySize))
 pygame.display.set_caption('Davids 3-i-rad')
 
 board = initBoard(ttt)
