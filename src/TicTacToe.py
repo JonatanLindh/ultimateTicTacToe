@@ -1,7 +1,19 @@
 import os
 
-import pygame
-from pygame.locals import *
+# Installerar pygame om det inte redan finns
+try:
+    import pygame
+    from pygame.locals import *
+except:
+    import subprocess
+    import sys
+
+    print("Pygame modulen är inte installerad, installerar den.")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pygame"])
+    import pygame
+    from pygame.locals import *
+
+
 
 # Kollar of annat typsnitt finns i mapp
 
