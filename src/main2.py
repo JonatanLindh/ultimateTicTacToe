@@ -352,6 +352,31 @@ def clickBoard(board):
 
     if oldAv is None:
         oldAv = (None, None)
+    noneCount = 0
+    found = False
+    for q, w, e in grid:
+        for x, y, z in q, w, e:
+            for a, s, d in x, y, z:
+                noneCount += 1 if a is None else 0
+                noneCount += 1 if s is None else 0
+                noneCount += 1 if d is None else 0
+                if noneCount >= 1:
+                    found = True
+                    break
+            if found:
+                break
+        if found:
+            break
+    if noneCount == 0:
+        board.fill(255, 255, 255)
+        message = "Trodde inte ens att det kunde bli lika"
+
+        font = pygame.font.Font(fontType, 70)
+        text = font.render(message, 1, (10, 10, 10))
+
+        board.fill((250, 250, 250), (0, 0, 675, 100))
+        board.blit(text, (10, 675))
+        return False
 
 
 def gameWon(board):
