@@ -3,8 +3,106 @@
   <component name="ChangeListManager">
     <list default="true" id="e6e26ec1-cbdb-4f7c-8f88-1fe0d038c9ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe.exe (genväg).lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/Include/pyconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/SDL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/SDL_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/SDL_mixer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/SDL_ttf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/TicTacToe.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/TicTacToe.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/TicTacToe.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/TradeWinds-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_elementtree.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_queue.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/_win32sysloader.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/O.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/OWin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/XWin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/blueGrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/greenGrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/restart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/img/textBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libcrypto-1_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libfreetype-6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libgcc_s_sjlj-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libjpeg-8.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libmpg123-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libogg-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libpng16-16.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libssl-1_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libtiff-5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libvorbis-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libvorbisfile-3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/libwebp-5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/mfc140u.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/_freetype.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/base.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/bufferproxy.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/cdrom.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/color.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/constants.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/display.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/draw.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/event.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/fastevent.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/font.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/image.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/imageext.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/joystick.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/key.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/mask.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/math.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/mixer.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/mixer_music.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/mouse.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/overlay.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/pixelarray.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/pixelcopy.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/rect.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/rwobject.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/scrap.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/surface.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/surflock.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/time.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pygame/transform.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/python37.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pythoncom37.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/pywintypes37.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/win32api.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/win32com/shell/shell.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/win32trace.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/win32ui.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/win32wnet.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/TicTacToe/zlib1.dll" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +326,7 @@
       <workItem from="1582923480407" duration="3827000" />
       <workItem from="1582973483676" duration="18460000" />
       <workItem from="1582997078049" duration="3706000" />
-      <workItem from="1583002566200" duration="1060000" />
+      <workItem from="1583002566200" duration="1463000" />
     </task>
     <task id="LOCAL−00001" summary="v1">
       <created>1582660330504</created>
@@ -236,7 +334,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1582660330504</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="v2.3">
+      <created>1583003677376</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1583003677376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,17 +348,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+    <MESSAGE value="v2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="666" y="312" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582923578097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="312" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582923578097" />
-    <state x="583" y="123" key="CommitChangelistDialog2" timestamp="1582660329243">
+    <state x="583" y="123" key="CommitChangelistDialog2" timestamp="1583003676384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="123" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582660329243" />
+    <state x="583" y="123" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583003676384" />
     <state x="739" y="276" key="FileChooserDialogImpl" timestamp="1582898104839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,10 +404,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="13" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582652255577" />
+    <state x="664" y="229" key="MultipleFileMergeDialog" timestamp="1583003695302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="229" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583003695302" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1582899321969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582899321969" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583003679907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583003679907" />
     <state x="767" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582923066191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
