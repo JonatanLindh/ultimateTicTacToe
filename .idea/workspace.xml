@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6e26ec1-cbdb-4f7c-8f88-1fe0d038c9ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Jonatan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ultimateTicTacToe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ultimateTicTacToe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Raleway-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +35,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe\src\img" />
+      <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe\src" />
+      <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe\src\img" />
       <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe\src" />
       <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe\src\pyjsdl" />
       <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe\src" />
-      <recent name="C:\Users\Jonatan\PycharmProjects\ultimateTicTacToe" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main2">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ultimateTicTacToe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +97,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ultimateTicTacToe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ultimateTicTacToe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main2" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
       </list>
@@ -155,7 +177,8 @@
       <workItem from="1582896827584" duration="2885000" />
       <workItem from="1582916040740" duration="611000" />
       <workItem from="1582922585103" duration="888000" />
-      <workItem from="1582923480407" duration="3569000" />
+      <workItem from="1582923480407" duration="3827000" />
+      <workItem from="1582973483676" duration="16524000" />
     </task>
     <task id="LOCAL−00001" summary="v1">
       <created>1582660330504</created>
@@ -186,29 +209,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582898104839" />
-    <state width="1877" height="56" key="GridCell.Tab.0.bottom" timestamp="1582927076980">
+    <state width="1877" height="-12" key="GridCell.Tab.0.bottom" timestamp="1582994694461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="44" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582799308328" />
-    <state width="1877" height="56" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582927076980" />
+    <state width="1877" height="-12" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582994694461" />
     <state width="1876" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582648014025" />
-    <state width="1877" height="56" key="GridCell.Tab.0.center" timestamp="1582927076980">
+    <state width="1877" height="-12" key="GridCell.Tab.0.center" timestamp="1582994694461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="44" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582799308328" />
-    <state width="1877" height="56" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582927076980" />
+    <state width="1877" height="-12" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582994694461" />
     <state width="1876" height="326" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582648014025" />
-    <state width="1877" height="56" key="GridCell.Tab.0.left" timestamp="1582927076980">
+    <state width="1877" height="-12" key="GridCell.Tab.0.left" timestamp="1582994694461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="44" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582799308328" />
-    <state width="1877" height="56" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582927076980" />
+    <state width="1877" height="-12" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582994694461" />
     <state width="1876" height="326" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582648014025" />
-    <state width="1877" height="56" key="GridCell.Tab.0.right" timestamp="1582927076980">
+    <state width="1877" height="-12" key="GridCell.Tab.0.right" timestamp="1582994694461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="44" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582799308328" />
-    <state width="1877" height="56" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582927076980" />
+    <state width="1877" height="-12" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582994694461" />
     <state width="1876" height="326" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582648014025" />
     <state width="1876" height="13" key="GridCell.Tab.1.bottom" timestamp="1582652255577">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -241,6 +264,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ultimateTicTacToe$main.coverage" NAME="main Coverage Results" MODIFIED="1582922814116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ultimateTicTacToe$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1582927051349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/ultimateTicTacToe$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1582994694456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/ultimateTicTacToe$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1582990173213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

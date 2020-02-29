@@ -54,44 +54,13 @@ class button():
             text = font.render(self.text, 1, (0, 0, 0))
             win.blit(text, (
                 self.x + (self.width / 2 - text.get_width() / 2), self.y + (self.height / 2 - text.get_height() / 2)))
+
     def isOver(self, pos):
         if self.x < pos[0] < self.x + self.width:
             if self.y < pos[1] < self.y + self.height:
                 return True
 
         return False
-
-
-def initBoard(ttt):
-    background = pygame.Surface(ttt.get_size())
-    background = background.convert()
-    background.fill((250, 250, 250))
-
-    pygame.draw.line(background, (0, 0, 0), (50, 0), (50, 450), 2)
-    pygame.draw.line(background, (0, 0, 0), (100, 0), (100, 450), 2)
-    pygame.draw.line(background, (0, 0, 0), (150, 0), (150, 450), 3)
-    pygame.draw.line(background, (0, 0, 0), (200, 0), (200, 450), 2)
-    pygame.draw.line(background, (0, 0, 0), (250, 0), (250, 450), 2)
-    pygame.draw.line(background, (0, 0, 0), (300, 0), (300, 450), 3)
-    pygame.draw.line(background, (0, 0, 0), (350, 0), (350, 450), 2)
-    pygame.draw.line(background, (0, 0, 0), (400, 0), (400, 450), 2)
-    pygame.draw.line(background, (0, 0, 0), (450, 0), (450, 450), 3)
-    pygame.draw.line(background, (0, 0, 0), (0, 0), (450, 0), 3)
-    pygame.draw.line(background, (0, 0, 0), (0, 450), (450, 450), 3)
-
-    pygame.draw.line(background, (0, 0, 0), (0, 50), (450, 50), 2)
-    pygame.draw.line(background, (0, 0, 0), (0, 100), (450, 100), 2)
-    pygame.draw.line(background, (0, 0, 0), (0, 150), (450, 150), 3)
-    pygame.draw.line(background, (0, 0, 0), (0, 200), (450, 200), 2)
-    pygame.draw.line(background, (0, 0, 0), (0, 250), (450, 250), 2)
-    pygame.draw.line(background, (0, 0, 0), (0, 300), (450, 300), 3)
-    pygame.draw.line(background, (0, 0, 0), (0, 350), (450, 350), 2)
-    pygame.draw.line(background, (0, 0, 0), (0, 400), (450, 400), 2)
-    pygame.draw.line(background, (0, 0, 0), (0, 450), (450, 450), 3)
-    pygame.draw.line(background, (0, 0, 0), (0, 0), (0, 450), 3)
-    pygame.draw.line(background, (0, 0, 0), (450, 0), (450, 450), 3)
-
-    return background
 
 
 def drawStatus(board):
@@ -118,11 +87,11 @@ def drawStatus(board):
         return True
 
 
-def showBoard(ttt, board):
+def showBoard(size, board):
     global running
 
     get = drawStatus(board)
-    ttt.blit(board, (0, 0))
+    size.blit(board, (0, 0))
     pygame.display.flip()
     if get:
         running = 2
@@ -148,9 +117,6 @@ def showBoard(ttt, board):
                         startButton.color = (88, 160, 195)
                     else:
                         startButton.color = (173, 216, 230)
-
-
-
 
 
 def boardPos(mouseX, mouseY):
@@ -361,6 +327,38 @@ def gameWon(board):
                 drawMove(board, (y + 1, 1), (x + 1, 3), winner, True)
 
 
+def initBoard(size):
+    background = pygame.Surface(size.get_size())
+    background = background.convert()
+    background.fill((250, 250, 250))
+
+    pygame.draw.line(background, (0, 0, 0), (50, 0), (50, 450), 2)
+    pygame.draw.line(background, (0, 0, 0), (100, 0), (100, 450), 2)
+    pygame.draw.line(background, (0, 0, 0), (150, 0), (150, 450), 3)
+    pygame.draw.line(background, (0, 0, 0), (200, 0), (200, 450), 2)
+    pygame.draw.line(background, (0, 0, 0), (250, 0), (250, 450), 2)
+    pygame.draw.line(background, (0, 0, 0), (300, 0), (300, 450), 3)
+    pygame.draw.line(background, (0, 0, 0), (350, 0), (350, 450), 2)
+    pygame.draw.line(background, (0, 0, 0), (400, 0), (400, 450), 2)
+    pygame.draw.line(background, (0, 0, 0), (450, 0), (450, 450), 3)
+    pygame.draw.line(background, (0, 0, 0), (0, 0), (450, 0), 3)
+    pygame.draw.line(background, (0, 0, 0), (0, 450), (450, 450), 3)
+
+    pygame.draw.line(background, (0, 0, 0), (0, 50), (450, 50), 2)
+    pygame.draw.line(background, (0, 0, 0), (0, 100), (450, 100), 2)
+    pygame.draw.line(background, (0, 0, 0), (0, 150), (450, 150), 3)
+    pygame.draw.line(background, (0, 0, 0), (0, 200), (450, 200), 2)
+    pygame.draw.line(background, (0, 0, 0), (0, 250), (450, 250), 2)
+    pygame.draw.line(background, (0, 0, 0), (0, 300), (450, 300), 3)
+    pygame.draw.line(background, (0, 0, 0), (0, 350), (450, 350), 2)
+    pygame.draw.line(background, (0, 0, 0), (0, 400), (450, 400), 2)
+    pygame.draw.line(background, (0, 0, 0), (0, 450), (450, 450), 3)
+    pygame.draw.line(background, (0, 0, 0), (0, 0), (0, 450), 3)
+    pygame.draw.line(background, (0, 0, 0), (450, 0), (450, 450), 3)
+
+    return background
+
+
 # --------------------------------------------------------------------
 def newGame(board):
     global XO, available, grid, winner, running
@@ -385,14 +383,13 @@ def newGame(board):
 
 
 def startGame():
-
     global running
 
     pygame.init()
-    ttt = pygame.display.set_mode((450, ySize))
+    size = pygame.display.set_mode((450, ySize))
     pygame.display.set_caption('Davids 3-i-rad')
 
-    board = initBoard(ttt)
+    board = initBoard(size)
 
     while running == 1:
         for event in pygame.event.get():
@@ -403,7 +400,7 @@ def startGame():
 
             gameWon(board)
 
-            showBoard(ttt, board)
+            showBoard(size, board)
 
 
 if __name__ == "__main__":
