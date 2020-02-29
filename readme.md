@@ -7,7 +7,7 @@
 ### 2. Starta spelet med "***TicTacToe.exe***"
 ##### DU MÅSTE BEHÅLLA ALLA FILER
 
-
+------
 
 ## Om inte det första sättet funkar
 (eller om du inte litar på .exe filer och vill se koden)
