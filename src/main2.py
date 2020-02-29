@@ -438,7 +438,7 @@ def startGame():
 
     pygame.init()
     size = pygame.display.set_mode((675, ySize))
-    pygame.display.set_caption('Davids 3-i-rad')
+    pygame.display.set_caption('Extrem 3-i-rad')
 
     board = initBoard(size)
 
@@ -459,11 +459,8 @@ def startGame():
                 running = 0
             elif event.type is MOUSEBUTTONDOWN:
                 clickBoard(board)
-            won = gameWon(board)
-            if not won:
-                showBoard(size, board)
-            else:
-                showBoard(size, board, xOld, yOld)
+            gameWon(board)
+            showBoard(size, board)
 
 
 if __name__ == "__main__":
