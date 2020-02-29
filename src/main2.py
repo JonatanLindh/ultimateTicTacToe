@@ -10,8 +10,10 @@ for file in os.listdir("."):
     if file.endswith(".ttf"):
         withFont = file
         break
-print("Using font: ", withFont[0:-4])
-
+try:
+    print("Använder typsnitt: ", withFont[0:-4])
+except:
+    print("Hittade inget typsnitt")
 fontType = withFont if type(withFont) == str else None
 ySize = 775
 
@@ -27,6 +29,7 @@ oWinSprite = None
 greenGrid = None
 blueGrid = None
 restartImg = None
+textBG = None
 
 grid = [[[[None, None, None], [None, None, None], [None, None, None]],
          [[None, None, None], [None, None, None], [None, None, None]],
@@ -94,22 +97,22 @@ def drawStatus(board):
     if (winner is None):
         message = "Spelare: " + XO
 
-        font = pygame.font.Font(fontType, 50)
-        text = font.render(message, 1, (10, 10, 10))
+        font = pygame.font.Font(fontType, 70)
+        text = font.render(message, 1, (250, 250, 250))
 
-        board.fill((250, 250, 250), (0, 675, 675, 100))
+        board.blit(textBG, (0, 675))
         board.blit(text, (10, 675))
         return False
     else:
         color = (50, 205, 50)
         message = "Vinnare: " + winner
-        font = pygame.font.Font(fontType, 50)
-        text = font.render(message, 1, (10, 10, 10))
+        font = pygame.font.Font(fontType, 70)
+        text = font.render(message, 1, (0, 255, 0))
         highlight(board, None, None, (available[0], available[1]), True)
 
-        board.fill(color, (0, 675, 675, 100))
+        board.blit(textBG, (0, 675))
         board.blit(text, (10, 675))
-        startButton = button(400, 680, 203, 90, restartImg)
+        startButton = button(430, 676, 203, 90, restartImg)
         startButton.fromImg(board)
         return True
 
@@ -459,7 +462,7 @@ def newGame(board):
 
 
 def startGame():
-    global running, xSprite, oSprite, greenGrid, blueGrid, oWinSprite, xWinSprite, restartImg
+    global running, xSprite, oSprite, greenGrid, blueGrid, oWinSprite, xWinSprite, restartImg, textBG
 
     pygame.init()
     size = pygame.display.set_mode((675, ySize))
@@ -474,6 +477,8 @@ def startGame():
     greenGrid = pygame.image.load("./img/greenGrid.png").convert_alpha()
     blueGrid = pygame.image.load("./img/blueGrid.png").convert_alpha()
     restartImg = pygame.image.load("./img/restart.png").convert_alpha()
+    textBG = pygame.image.load("./img/textBG.png").convert_alpha()
+
 
     xOld = None
     yOld = None
