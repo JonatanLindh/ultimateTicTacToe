@@ -1,4 +1,7 @@
+#-*- coding: utf-8 -*-
+
 import os
+import random
 
 # Installerar pygame om det inte redan finns
 try:
@@ -7,9 +10,21 @@ try:
 except:
     import subprocess
     import sys
+    import os
 
     print("Pygame modulen är inte installerad, installerar den.")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "pygame"])
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "pygame"])
+    except:
+        try:
+            subprocess.check_call(["pip", "install", "pygame"])
+        except:
+            try:
+                os.system("pip install pygame")
+            except:
+                print("Kunde inte installera PyGame automatiskt.")
+                print("Kör kommandot [pip install pygame]")
+                exit()
     import pygame
     from pygame.locals import *
 
